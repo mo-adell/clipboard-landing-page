@@ -1,0 +1,26 @@
+//colors
+$strongCyan   :  hsl(171, 66%, 44%);    //btn and hovers
+$lightBlue    :  hsl(233, 100%, 69%);   //btn and hovers
+$neutralDark  :  hsl(210, 10%, 33%);    //headers nd titles
+$neutralLight :  hsl(201, 11%, 66%);    //for paragraphs and subheaders
+
+
+//fonts
+$fontSize    :  18px;
+$fontStack-1 :  400 $fontSize 'Bai Jamjuree', sans-serif;
+$fontStack-2 :  600 $fontSize 'Bai Jamjuree', sans-serif;
+
+
+//The designs were created to the following widths:
+// - Mobile: 375px
+// - Desktop: 1440px
+//breakpoints
+$mobile  :  375px;
+$desktop :  1440px;
+
+
+// For the social icons, you can use the SVGs provided or a font icon library. 
+// Some font icon library suggestions can be found below:
+// - [Font Awesome](https://fontawesome.com)
+// - [IcoMoon](https://icomoon.io)
+// - [Ionicons](https://ionicons.com)
