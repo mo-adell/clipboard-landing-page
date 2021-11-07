@@ -1,0 +1,46 @@
+//colors
+$strongCyan: hsl(171, 66%, 44%); //btn and hovers
+$lightBlue: hsl(233, 100%, 69%); //btn and hovers
+$neutralDark: hsl(210, 10%, 33%); //headers nd titles
+$neutralLight: hsl(201, 11%, 66%); //for paragraphs and subheaders
+
+//Fonts
+$font-family: 'Bai Jamjuree', sans-serif;
+
+//Font weight
+$fontWeightRegular: 400;
+$fontWeightMedium: 600;
+
+//Font size responsive
+$fontSizeH1: clamp(1.9em, 1vw + 1rem, 15rem);
+$fontSizeH2: clamp(1.5rem, 1vw + 1rem, 12rem);
+$fontSizeH3: clamp(1.3rem, 1vw + 0.7rem, 5rem);
+$fontSizeText: clamp(1rem, 1vw + 0.35rem, 1.8rem);
+
+$marginTopBot: 4rem 0;
+
+//Layout
+$padding-layout-mobile: 5vw;
+$padding-layout-tablet: 10vw;
+
+//Maps
+$breakpoints: (
+  //400px
+  xs: 25em,
+  // 544px
+  ms: 34em,
+  // 768px
+  md: 48em,
+  // 960px
+  lg: 60em,
+  // 1280px
+  xl: 80em,
+  // 1440px
+  xxl: 90em
+);
+
+// For the social icons, you can use the SVGs provided or a font icon library.
+// Some font icon library suggestions can be found below:
+// - [Font Awesome](https://fontawesome.com)
+// - [IcoMoon](https://icomoon.io)
+// - [Ionicons](https://ionicons.com)

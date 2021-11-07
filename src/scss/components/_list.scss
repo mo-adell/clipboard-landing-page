@@ -1,0 +1,20 @@
+@use '../sass-utils/all' as *;
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 3.5rem;
+
+  @include query(md) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+  }
+
+  &__item {
+    display: flex;
+    row-gap: 2.4rem;
+    flex-direction: column;
+    place-items: center;
+  }
+}

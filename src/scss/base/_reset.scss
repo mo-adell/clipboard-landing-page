@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  position: relative;
+}
+
+input {
+  all: unset;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+image {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
