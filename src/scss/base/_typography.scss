@@ -1,0 +1,37 @@
+@use '../sass-utils/all' as *;
+
+html {
+}
+
+body {
+  font-family: $font-family;
+  font-weight: $fontWeightRegular;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: $fontWeightMedium;
+  text-align: center;
+  color: $neutralDark;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: $fontSizeH1;
+}
+
+h2 {
+  font-size: $fontSizeH2;
+}
+
+h3 {
+  font-size: $fontSizeH3;
+}
+
+p {
+  font-size: $fontSizeText;
+  line-height: 1.5;
+  text-align: center;
+  color: $neutralLight;
+}
