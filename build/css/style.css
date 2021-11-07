@@ -64,6 +64,24 @@ p {
   color: #9fabb2;
 }
 
+.btn {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 75%;
+}
+.btn a {
+  color: #fff;
+  width: 43%;
+  height: 57px;
+  border-radius: 30px;
+  background-color: #26baa4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
 .header-section {
   margin-bottom: 4rem;
 }
@@ -85,6 +103,31 @@ p {
   row-gap: 2.4rem;
   flex-direction: column;
   place-items: center;
+}
+
+body {
+  background: #fff url(../images/bg-header-desktop.png) no-repeat top/contain;
+}
+
+.header {
+  max-width: 100%;
+}
+.header > div {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  max-width: 700px;
+  margin: 8rem auto 5rem;
+}
+.header svg {
+  margin-bottom: 3rem;
+}
+.header__title {
+  margin-bottom: 2rem;
+  font-size: 2.7rem;
+}
+.header__text {
+  margin-bottom: 3rem;
 }
 
 .layout {
