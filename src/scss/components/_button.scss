@@ -4,8 +4,9 @@
   display: flex;
   flex-flow: column wrap;
   justify-content: space-evenly;
-  margin: auto;
   gap: 2rem;
+  margin: auto;
+  max-width: 700px;
 
   @include query(md) {
     flex-flow: row wrap;
