@@ -1,20 +1,32 @@
 @use '../sass-utils/all' as *;
 
 .btn {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    width: 75%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  gap: 2rem;
 
-    a {
-        color: #fff;
-        width: 43%;
-        height: 57px;
-        border-radius: 30px;
-        background-color: $strongCyan;        
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: $fontWeightMedium;
-    }
+  @include query(md) {
+    flex-flow: row wrap;
+  }
+
+  a {
+    color: #fff;
+    padding: 1.2rem 3.5rem;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: $fontWeightMedium;
+  }
+
+  &--ios {
+    background-color: $strongCyan;
+  }
+
+  &--mac {
+    background-color: $lightBlue;
+  }
 }
