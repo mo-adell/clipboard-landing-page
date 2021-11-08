@@ -1,20 +1,40 @@
 @use '../sass-utils/all' as *;
 
 .list {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  padding: 3.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   gap: 3.5rem;
 
   @include query(md) {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
+    flex-direction: row;
   }
 
   &__item {
+    flex-basis: 33.3%;
     display: flex;
     row-gap: 2.4rem;
     flex-direction: column;
     place-items: center;
+  }
+}
+
+.list-grid {
+  padding: 3.5rem 0;
+  display: grid;
+  place-items: center;
+  gap: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+
+  @include query(md) {
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  }
+  &__img {
+    width: 8rem;
+    height: auto;
+    @include query(md) {
+      width: 78%;
+    }
   }
 }

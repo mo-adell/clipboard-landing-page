@@ -1,30 +1,30 @@
 @use '../sass-utils/all' as *;
 
 body {
-    background: #fff url(../images/bg-header-desktop.png) no-repeat top / contain;
+  background: #fff url(../images/bg-header-desktop.png) no-repeat top / contain;
 }
 
 .header {
-    max-width: 100%;
+  max-width: 100%;
 
-    >div {
-        display: flex;
-        flex-flow: column wrap;
-        align-items: center;
-        max-width: 700px;
-        margin: 8rem auto 5rem;
-    }
-    
-    svg {
-        margin-bottom: 3rem;
-    }
+  > div {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    max-width: 700px;
+    margin: 8rem auto 5rem;
+  }
 
-    &__title {
-        margin-bottom: 2rem;
-        font-size: 2.7rem;
-    }
-    
-    &__text {
-        margin-bottom: 3rem;
-    }
+  svg {
+    margin-bottom: 3rem;
+  }
+
+  &__title {
+    margin-bottom: 2rem;
+    font-size: 2.7rem;
+  }
+
+  &__text {
+    margin-bottom: 3rem;
+  }
 }

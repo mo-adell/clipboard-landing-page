@@ -2,4 +2,6 @@
 
 .section {
   margin: $marginTopBot;
+  display: grid;
+  place-self: center;
 }
