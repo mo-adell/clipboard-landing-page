@@ -1,0 +1,23 @@
+@use '../sass-utils/all' as *;
+
+.content .section2 {
+    margin-top: 9rem;
+
+    &__header,&__text {
+        max-width: 700px;
+        
+        @media (max-width:775px) {
+            max-width: 350px;
+                
+        }
+    }
+
+    &__header {
+        font-size: 2rem;
+    }
+
+    &__text {
+        margin-bottom: 5.5rem;
+        font-size: 1.1rem;
+    }
+}
