@@ -1,28 +1,29 @@
 @use '../sass-utils/all' as *;
 
 .content .section2 {
-    @include flexbox(column, center, center);
-    margin-top: 9rem;
+  margin-top: 9rem;
+  display: grid;
+  place-self: center;
 
-    &__header,&__text {
-        max-width: 700px;
-        
-        @media (max-width:775px) {
-            max-width: 350px;
-                
-        }
-    }
+  &__header,
+  &__text {
+    max-width: 700px;
 
-    &__header {
-        font-size: 2rem;
+    @media (max-width: 775px) {
+      max-width: 350px;
     }
+  }
 
-    &__text {
-        margin-bottom: 5.5rem;
-        font-size: 1.1rem;
-    }
+  &__header {
+    font-size: 2rem;
+  }
 
-    &__img {
-        max-width: 100%;
-    }
+  &__text {
+    margin-bottom: 5.5rem;
+    font-size: 1.1rem;
+  }
+
+  &__img {
+    max-width: 100%;
+  }
 }
