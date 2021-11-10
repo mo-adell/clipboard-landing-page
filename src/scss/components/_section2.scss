@@ -1,6 +1,7 @@
 @use '../sass-utils/all' as *;
 
 .content .section2 {
+    @include flexbox(column, center, center);
     margin-top: 9rem;
 
     &__header,&__text {
