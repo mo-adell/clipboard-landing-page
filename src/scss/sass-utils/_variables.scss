@@ -12,10 +12,10 @@ $fontWeightRegular: 400;
 $fontWeightMedium: 600;
 
 //Font size responsive
-$fontSizeH1: clamp(1.9em, 1vw + 1rem, 15rem);
-$fontSizeH2: clamp(1.5rem, 1vw + 1rem, 12rem);
-$fontSizeH3: clamp(1.3rem, 1vw + 0.7rem, 5rem);
-$fontSizeText: clamp(1rem, 1vw + 0.35rem, 1.8rem);
+$fontSizeH1: clamp(1.9em, 1vw, 15rem);
+$fontSizeH2: clamp(1.5rem, 1vw, 12rem);
+$fontSizeH3: clamp(1.3rem, 1vw, 5rem);
+$fontSizeText: clamp(1rem, 1vw, 1.8rem);
 
 $marginTopBot: 4rem 0;
 

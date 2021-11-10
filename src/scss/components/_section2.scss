@@ -1,9 +1,8 @@
 @use '../sass-utils/all' as *;
 
 .content .section2 {
+  @include flexbox(column, center, center);
   margin-top: 9rem;
-  display: grid;
-  place-self: center;
 
   &__header,
   &__text {
