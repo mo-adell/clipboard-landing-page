@@ -1,0 +1,77 @@
+@use '../sass-utils/all' as *;
+
+.content >.section {
+    @include flexbox(column, center, center);
+
+    .title {
+        max-width: 700px;
+        margin-bottom: 5rem;
+        
+        @media (max-width:775px) {
+            margin-bottom: 3rem;
+                
+        }
+
+        &__header {
+            font-size: $fontSizeH1;
+        }
+
+        &__text {
+            font-size: 1.1rem;
+        }
+    }
+
+    .section1 {
+        @include flexbox(row, flex-start, center);
+        
+        @media (max-width: 775px) {
+            @include flexbox(column, center, center);
+            
+        }
+
+        &__img {
+            position: relative;
+            left: -14vw;
+
+            @media (max-width: 775px) {
+                width: 90%;
+                left: initial;
+            }
+        }
+
+        &__text {
+            max-width: 350px;
+            position: relative;
+            left: -6vw;
+            @include flexbox(column, space-between, flex-start, 4.3rem);
+            
+            @media (max-width: 775px) {
+                left: initial;
+                margin-top: 4rem;
+                @include flexbox(column, space-between, flex-start, 3rem);
+                max-width: 300px;
+                
+            }
+        }
+
+        h3 {
+            font-size: 1.65rem;
+            line-height: .5;
+        }
+        
+        p {
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        h3,p {
+            text-align: left;
+            
+            @media (max-width:775px) {
+                text-align: center;
+                
+            }
+        }
+
+    }
+}

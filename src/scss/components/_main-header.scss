@@ -2,6 +2,11 @@
 
 body {
   background: #fff url(../images/bg-header-desktop.png) no-repeat top / contain;
+  
+  @media (max-width:375px) {
+    background: #fff url(../images/bg-header-mobile.png) no-repeat top / cover;
+                
+  }
 }
 
 .header {
@@ -12,7 +17,7 @@ body {
     flex-flow: column wrap;
     align-items: center;
     max-width: 700px;
-    margin: 8rem auto 5rem;
+    margin: 7.5rem auto 4rem;
   }
 
   svg {
@@ -22,6 +27,11 @@ body {
   &__title {
     margin-bottom: 2rem;
     font-size: 2.7rem;
+    
+    @media (max-width:775px) {
+      font-size: 1.8rem;
+                
+    }
   }
 
   &__text {
