@@ -286,6 +286,9 @@ body {
   margin-bottom: 5.5rem;
   font-size: 1.1rem;
 }
+.content .section2__img {
+  max-width: 100%;
+}
 
 .layout {
   display: grid;
