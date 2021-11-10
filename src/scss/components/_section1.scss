@@ -1,6 +1,6 @@
 @use '../sass-utils/all' as *;
 
-.content >.section {
+.content .section-head {
     @include flexbox(column, center, center);
 
     .title {

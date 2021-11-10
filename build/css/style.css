@@ -184,52 +184,52 @@ body {
   margin-bottom: 3rem;
 }
 
-.content > .section {
+.content .section-head {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.content > .section .title {
+.content .section-head .title {
   max-width: 700px;
   margin-bottom: 5rem;
 }
 @media (max-width: 775px) {
-  .content > .section .title {
+  .content .section-head .title {
     margin-bottom: 3rem;
   }
 }
-.content > .section .title__header {
+.content .section-head .title__header {
   font-size: clamp(1.9em, 1vw + 1rem, 15rem);
 }
-.content > .section .title__text {
+.content .section-head .title__text {
   font-size: 1.1rem;
 }
-.content > .section .section1 {
+.content .section-head .section1 {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
 }
 @media (max-width: 775px) {
-  .content > .section .section1 {
+  .content .section-head .section1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 }
-.content > .section .section1__img {
+.content .section-head .section1__img {
   position: relative;
   left: -14vw;
 }
 @media (max-width: 775px) {
-  .content > .section .section1__img {
+  .content .section-head .section1__img {
     width: 90%;
     left: initial;
   }
 }
-.content > .section .section1__text {
+.content .section-head .section1__text {
   max-width: 350px;
   position: relative;
   left: -6vw;
@@ -240,7 +240,7 @@ body {
   gap: 4.3rem;
 }
 @media (max-width: 775px) {
-  .content > .section .section1__text {
+  .content .section-head .section1__text {
     left: initial;
     margin-top: 4rem;
     display: flex;
@@ -251,19 +251,19 @@ body {
     max-width: 300px;
   }
 }
-.content > .section .section1 h3 {
+.content .section-head .section1 h3 {
   font-size: 1.65rem;
   line-height: 0.5;
 }
-.content > .section .section1 p {
+.content .section-head .section1 p {
   font-size: 1rem;
   line-height: 1.8;
 }
-.content > .section .section1 h3, .content > .section .section1 p {
+.content .section-head .section1 h3, .content .section-head .section1 p {
   text-align: left;
 }
 @media (max-width: 775px) {
-  .content > .section .section1 h3, .content > .section .section1 p {
+  .content .section-head .section1 h3, .content .section-head .section1 p {
     text-align: center;
   }
 }
